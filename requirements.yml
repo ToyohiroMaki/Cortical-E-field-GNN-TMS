@@ -1,0 +1,22 @@
+name: sample
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - nibabel
+  - yacs
+  - pytorch3d
+  - pytorch-gpu=2.5
+  - pytorch_geometric
+  - trimesh
+  - pymeshfix
+  - meshio
+  - tqdm
+  - pykdtree
+  - connected-components-3d
+  - gmsh
+  - pip:
+      - pymeshlab
+      - fmm3dpy
