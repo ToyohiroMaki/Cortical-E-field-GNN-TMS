@@ -3,7 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - python=3.10
-  - numpy
+  - numpy<2
   - scipy
   - nibabel
   - yacs
@@ -11,7 +11,7 @@ dependencies:
   - pytorch-gpu=2.5
   - pytorch_geometric
   - trimesh
-  - pymeshfix
+  - pymeshfix=0.17
   - meshio
   - tqdm
   - pykdtree
