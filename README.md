@@ -1,11 +1,31 @@
 # Cortical Surface Electric Field Estimation for Real-Time TMS with Graph Neural Networks
 
----
+### Method Overview
+
+<p align="center">
+  <img src="assets/pipeline.png" width="700">
+</p>
+
+We propose a deep learning framework for real-time estimation of the TMS-induced electric field on the cortical surface.
+The proposed model consists of a U-Net and a graph neural network (GNN):
+
+- **Input:** MR image and coil configuration
+- **Feature extraction:** U-Net extracts multiscale features from the MR image
+- **Graph modeling:** cortical surface mesh is treated as a graph
+- **Prediction:** GNN estimates the three-dimensional vector (electric field) at each mesh vertex
+
 
 ## Description
 
-- This repository contains the source code for the "Cortical Surface Electric Field Estimation for Real-Time TMS with Graph Neural Networks" (Maki et al., 2025).
-- All imaging data used in this study is open and publicly available at the respective project webpage: the Human Connectome Project (https://www.humanconnectome.org/study/hcp-young-adult).
+This repository provides the implementation of:
+
+**Cortical Surface Electric Field Estimation for Real-Time TMS with Graph Neural Networks**, T. Maki et al., *Physics in Medicine & Biology*, 2025.
+
+Paper: https://doi.org/10.1088/1361-6560/ae1ee7
+
+The MR images used in this study are publicly available from the Human Connectome Project (HCP):
+
+https://www.humanconnectome.org/study/hcp-young-adult
 
 ## Sample Inference Demo
 
@@ -36,6 +56,12 @@ python demo_infer.py
 ```shell
 gmsh ./sample_out/result.msh
 ```
+
+- Output Example
+
+<p align="center">
+  <img src="assets/output_example.png" width="350">
+</p>
 
 ## Citation
 ```bibtex
