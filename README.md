@@ -12,6 +12,14 @@
 To test the model pipeline without preparing any MRI or mesh data, you can run a simple demo using publicly available anatomical templates.
 We provide a sample script that loads the sample T1-weighted brain image and performs E-field inference on a cortical mesh with a sample coil configuration.
 
+### Tested Environment
+
+- OS: Ubuntu 22.04 LTS
+- Python: 3.10
+- Pytorch: 2.5
+- CUDA: 12.6
+
+
 ### Requirements
 
 ```bash
@@ -34,7 +42,11 @@ gmsh ./sample_out/result.msh
 @article{maki2025cortical,
   title={Cortical surface electric field estimation for real-time TMS with graph neural networks},
   author={Maki, Toyohiro and Yokota, Tatsuya and Hirata, Akimasa and Hontani, Hidekata},
-  journal={Physics in Medicine and Biology},
-  year={2025}
+  journal={Physics in Medicine \& Biology},
+  volume={70},
+  number={23},
+  pages={235010},
+  year={2025},
+  publisher={IOP Publishing}
 }
 ```
