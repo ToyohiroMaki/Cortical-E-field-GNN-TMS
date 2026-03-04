@@ -1,6 +1,6 @@
 # Cortical Surface Electric Field Estimation for Real-Time TMS with Graph Neural Networks
 
-### Method Overview
+## Method Overview
 
 <p align="center">
   <img src="assets/pipeline.png" width="700">
