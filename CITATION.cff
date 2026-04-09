@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated paper (see preferred-citation below)."
+title: "Cortical-E-field-GNN-TMS"
+authors:
+  - family-names: "Maki"
+    given-names: "Toyohiro"
+
+preferred-citation:
+  type: article
+  title: "Cortical surface electric field estimation for real-time TMS with graph neural networks"
+  authors:
+    - family-names: "Maki"
+      given-names: "Toyohiro"
+    - family-names: "Yokota"
+      given-names: "Tatsuya"
+    - family-names: "Hirata"
+      given-names: "Akimasa"
+    - family-names: "Hontani"
+      given-names: "Hidekata"
+  journal: "Physics in Medicine & Biology"
+  year: 2025
+  volume: 70
+  issue: 23
+  start: 235010
+  doi: 10.1088/1361-6560/ae1ee7
+  publisher:
+    name: "IOP Publishing"
